@@ -1,0 +1,111 @@
+@media only screen and (max-width: 641px) {
+  form {
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+  }
+  fieldset {
+    margin: 0 auto;
+    width: 100%;
+  }
+  textarea {
+    width: 50%;
+    height: 220px;
+    max-height: 220px;
+    max-width: 600px;
+  }
+}
+
+@media only screen and (min-width: 642px) and (max-width: 1040px) {
+  form {
+    margin-left:auto;
+    margin-right:auto;
+    text-align: center;
+  }
+  fieldset {
+    margin: 0 auto;
+    width: 100%;
+  }
+  textarea {
+    width: 50%;
+    height: 220px;
+    max-height: 220px;
+    max-width: 1000px;
+  }
+}
+
+label#spaceLabel {
+  color: rgb(255, 255, 255);
+}
+
+textarea {
+  width: 50%;
+  height: 220px;
+  max-height: 220px;
+  max-width: 1000px;
+}
+
+label, input[type="text"], select, button {
+  display: inline-block;
+}
+
+input[type="text"], select {
+  width: 50%;
+  max-width: 500px;
+}
+
+label {
+  width: 30%;
+  text-align: left;
+}
+
+div.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+input[type="submit"], input[type="reset"] {
+  background-color: rgb(237, 212, 181);
+  border: none;
+  padding: 15px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 15px;
+  margin: 10px 15px;
+  cursor: pointer;
+  border-radius: 3px;
+}
+
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover {
+  background-color: rgb(174, 195, 193);
+}
+
+input:focus, select:focus, textarea:focus {
+	background-color: rgb(255,255,180);
+}
+
+input#email:focus:valid, input#email:focus:valid {
+	background: rgb(220,255,220) url('../img/valid_img/mc_go.png') bottom right/contain no-repeat;
+}
+
+input#email:focus:invalid, input#phone:focus:invalid {
+	background: rgb(255,232,233) url('../img/valid_img/mc_stop.png') bottom right/contain no-repeat;
+}
+
+fieldset {
+    background-color: rgb(242, 242, 233);
+    border-radius: 10px;
+    width: 80%;
+    display: inline-block;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    height: 250px;
+}
+
+legend {
+   background-color: rgb(237, 212, 181);
+}
